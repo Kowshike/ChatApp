@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Adding the background image for the entire body */
+body {
+  background-image: url('./components/images/lines.png'); /* Use your local image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure full height coverage */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
